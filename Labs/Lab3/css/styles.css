@@ -1,0 +1,21 @@
+body{
+    margin: 150px 150px 150px 400px;
+    width: 550px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+*{
+    box-sizing: border-box;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+}
+ul li:nth-child(odd){
+    background-color: #f9f9f9;
+}
+li:hover{
+    background-color: #bbb;
+}
